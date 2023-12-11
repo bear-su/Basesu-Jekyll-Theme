@@ -1,0 +1,40 @@
+title: Bearsu Tech Blog
+description: Bearsu Tech Blog
+baseurl: ""
+url: "http://bear-su.github.io"
+
+
+# Author
+author-name: Bearsu
+author-image: bearsu.jpeg
+author-job: Web Developer
+author-email: bearsu98@gmail.com
+about-author: Web Devloper, Blogger, Coffe-Lover
+
+# Social settings
+social-github: bearsu
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier: bearsu # Add your shortname for Disqus Comment. For example mr-brown
+
+collections:
+  authors:
+    output: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
